@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+ul {
+  list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: blue;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 150px;
+}
+.header, .navbarul{
+	display: flex;
+}
+.header{
+	justify-content: space-between;
+	align-items: center;
+}
+.li{
+	margin: 0 10px ;
+	font-size: 14px;
+}
+.li a{
+	color: white;
+}
+.navbar{
+	margin-right: 30px;
+}
+.header img{
+	height: 40px;
+	width: 80px;
+	margin-left: 30px;
+}
+.contact{
+	background-color: white;
+	padding: 10px;
+	color: black;
+}
+h2{
+	font-size: 20px;
+}
+.services, .dots{
+	display: flex;
+}
+.services{
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 30px;
+}
+.dots span{
+	border-radius: 20px;
+	font-size: 50px;
+	margin: 0 8px;
+}
+.maindot{
+	color: blue;
+}
+.dottwo, .dotthree{
+	color: lightblue;
+}
+.threeser, .serone, .sertwo, .serthree{
+	display: flex;
+}
+.threeser{
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 140px;
+}
+.threeser img{
+	height: 40px;
+	width: 40px;
+}
+h4{
+	font-size: 16px;
+}
+.serone, .sertwo, .serthree{
+	display: block;
+	margin: 30px;
+}
+.threeser p{
+	font-size: 14px;
+	line-height: 1.5;
+}
+.threeser h4, .threeser img{
+	margin-bottom: 14px;
+}
+footer{
+	height: 10px;
+	background-color: blue;
+}
+
