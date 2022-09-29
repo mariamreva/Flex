@@ -40,8 +40,11 @@ header{
 }
 .contact{
 	background-color: white;
-	padding: 10px;
+	padding: 12px;
 	color: black;
+	font-size: 14px;
+	margin-left: 5px;
+	font-weight: bolder;
 }
 h2{
 	font-size: 20px;
